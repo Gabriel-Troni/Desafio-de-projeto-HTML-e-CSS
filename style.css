@@ -10,14 +10,14 @@
 .header-wrapper {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(-45deg, purple, red, blue, lightblue);
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(14, 14, 14), rgb(27, 27, 27), rgb(14, 14, 14), rgb(0, 0, 0));
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
-    animation: BackgroundTransition 8s ease-in-out infinite;
+    animation: BackgroundTransition 10s ease-in-out infinite;
 }
 
 .h1 {
@@ -45,7 +45,7 @@
     text-decoration: none;
     font-size: 24px;
     color: white;
-    padding: 1rem 4rem;
+    padding: 1rem 5rem;
     border: 1px solid white;
     min-width: 4rem;
     display: flex;
@@ -236,11 +236,13 @@ a:hover {
 }
 
 .card-text {
+    font-size: 20px;
+    line-height: 25px;
     text-align: justify;
     width: 40%;
     font-family: sans-serif, 'Times New Roman';
     letter-spacing: 1px;
-    color: darkgray;
+    color: black;
     margin-top: 3.5rem;
 }
 
@@ -306,15 +308,27 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: black;
 }
 
 /* RESPONSIVO */
 
 @media (max-width: 800px) {
+    .h1 {
+        font-size: 30px;
+    }
+
+    .h2 {
+        font-size: 20px;
+    }
+    
     .social-media {
         display: flex;
         flex-direction: column;
+    }
+
+    .social-media a {
+        margin-top: 10px;
     }
 
     .container {
