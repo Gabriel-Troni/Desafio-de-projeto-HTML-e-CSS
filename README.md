@@ -11,8 +11,7 @@ A personal website containing my personal information, including an "about me" s
 
 ## Screenshots
 <div style="display: flex;">
-  <img src="" alt="splash screen" style="">
-  <img src="" alt="content screen" style="">
+  <img src="./websiteRecord.gif" alt="presentation gif" style="">
 </div>
 
 ## Acknowledgements
